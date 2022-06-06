@@ -184,6 +184,7 @@
   }
   
   .box{
+    font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,6 +262,33 @@
   .answer{
     display: none;
     background-color: whitesmoke;
+  }
+
+  .go-top-btn{
+    font-size: 50px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+
+  }
+
+  .top{
+      text-align: center;
+      padding: 50px;
+  }
+
+  h2{
+      font-size: 50px;
+      text-align: center;
+      padding: 50px;
+  }
+
+  footer{
+      background-color: white;
+      color: black;
+      text-align: center;
   }
   
   /* *{
