@@ -1,13 +1,10 @@
-.{
-  font-family: 'PT Sans Narrow', sans-serif;
-}
+
 
 .sunsetamerican{
   margin-top: 30px;
   text-align: center;
   font-size: 30px;
   font-family: 'PT Sans Narrow', sans-serif;
-
   }
   
   .american_intro{
@@ -109,18 +106,22 @@
   
   .shop_context{
     margin-left: 30px;
+    font-family: 'PT Sans Narrow', sans-serif;
+ 
   }
   
   .tab-list_shop{
     display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
   }
   
   .tab-list_shop li{
     padding: 10px;
-    background-color: beige;
+    background-color: burlywood;
     border: solid 1px #fff;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+    font-family: 'PT Sans Narrow', sans-serif;
   }
   
   .tab-list_shop li:hover{
@@ -154,9 +155,12 @@
   
   #hako1{
     background-color: gray;
+    font-family: 'PT Sans Narrow', sans-serif; 
   }
   #hako2{
-    background-color: silver;
+    /* background-color: silver; */
+    font-family: 'PT Sans Narrow', sans-serif;
+
   }
   #hako3{
     background-color: rgb(64, 224, 131);
@@ -177,10 +181,12 @@
   
   .tab-list li{
     padding: 10px;
-    background-color: beige;
+    background-color:  burlywood;
     border: solid 1px #fff;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+    font-family: 'PT Sans Narrow', sans-serif;
+
   }
   
   .tab-list li:hover{
@@ -206,6 +212,7 @@
     position: absolute;
     opacity: 0;
     transition: all 0.5s ease;
+    font-family: 'PT Sans Narrow', sans-serif;
   }
   
   .box::after{
@@ -215,18 +222,23 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    font-family: 'PT Sans Narrow', sans-serif;
+
 
   }
   
   #box1{
     background-image: url(./img/ocean.png);
     background-size: cover;
+    font-family: 'PT Sans Narrow', sans-serif;
     /* background-color: rgb(126, 212, 203); */
   }
+
   #box2{
       background-image: url(./img/sunset.png);
       background-size: cover;
     /* background-color: rgb(176, 141, 241); */
+    font-family: 'PT Sans Narrow', sans-serif;
   }
   
   .current{
@@ -244,6 +256,7 @@
   .question{
     position: relative;
     cursor: pointer;
+    font-family: 'PT Sans Narrow', sans-serif;
   }
   
   .question::after,.question::before{
@@ -274,20 +287,23 @@
   .answer{
     display: none;
     background-color: whitesmoke;
+    font-family: 'PT Sans Narrow', sans-serif;
+
   }
 
   .go-top-btn{
     font-size: 50px;
     padding: 10px;
-    background-color: red;
+    background-color: burlywood;
     border-radius: 5px;
-    color: black;
+    color: whitesmoke;
     cursor: pointer;
 
   }
 
   .top{
       text-align: center;
+      font-family: 'PT Sans Narrow', sans-serif;
       padding: 50px;
   }
 
@@ -295,12 +311,15 @@
       font-size: 50px;
       text-align: center;
       padding: 50px;
+      font-family: 'PT Sans Narrow', sans-serif;
+  
   }
 
   footer{
       background-color: white;
       color: black;
       text-align: center;
+      font-family: 'PT Sans Narrow', sans-serif; 
   }
   
   /* *{
