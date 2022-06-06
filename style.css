@@ -105,7 +105,7 @@
   
   .tab-list_shop li{
     padding: 10px;
-    background-color: violet;
+    background-color: ;
     border: solid 1px #fff;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -165,7 +165,7 @@
   
   .tab-list li{
     padding: 10px;
-    background-color: violet;
+    background-color: beige;
     border: solid 1px #fff;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -191,19 +191,23 @@
   }
   
   .box::after{
-    content: 'コンテンツ内容';
     position: absolute;
     font-size: 40px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+
   }
   
   #box1{
-    background-color: rgb(126, 212, 203);
+    background-image: url(./img/ocean.png);
+    background-size: cover;
+    /* background-color: rgb(126, 212, 203); */
   }
   #box2{
-    background-color: rgb(176, 141, 241);
+      background-image: url(./img/sunset.png);
+      background-size: cover;
+    /* background-color: rgb(176, 141, 241); */
   }
   
   .current{
@@ -226,7 +230,7 @@
   .question::after,.question::before{
     content: '';
     display: block;
-    background-color: white;
+    background-color: black;
     position: absolute;
   }
   
@@ -250,7 +254,7 @@
   
   .answer{
     display: none;
-    background-color: rgb(238, 157, 59);
+    background-color: whitesmoke;
   }
   
   /* *{
