@@ -29,7 +29,21 @@ $(function(){
       // ③取得したID名にクラス名currentを付ける
     $(target).addClass('current_shop');
     })
-  
+    
+    $('.tab-list li').on('click', function () {
+        let target = $(this).attr('id');
+        // ②boxからクラス名currentを取る
+        $('.box').removeClass('current');
+        // ③取得したID名にクラス名currentを付ける
+        $(target).addClass('current');
+    });
+
+    $('.question').on('click', function () {
+        $(this).next().slideToggle();
+        // ②押された要素にも'on'クラスを付ける
+        $(this).toggleClass('on');
+
+    });
 
 
     
