@@ -1,10 +1,20 @@
-/* とっしーpart */
+.{
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
 .sunsetamerican{
+  margin-top: 30px;
   text-align: center;
+  font-size: 30px;
+  font-family: 'PT Sans Narrow', sans-serif;
+
   }
   
   .american_intro{
     margin: 40px 40px 50px 40px;
+    font-size: 24px;
+    font-family: 'PT Sans Narrow', sans-serif;
+
   }
   
   
@@ -89,10 +99,12 @@
   .shop_title{
     font-size: 30px;
     margin-left: 30px;
+    font-family: 'PT Sans Narrow', sans-serif; 
   }
   
   .shop_intro{
     display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
   }
   
   .shop_context{
