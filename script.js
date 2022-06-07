@@ -38,6 +38,17 @@ $(function(){
         $(target).addClass('current');
     });
 
+
+// modal
+$('.modal-btn').on('click',function(){
+  $('.modal-container').addClass('on');
+  })
+  $('.close-btn-wrap').on('click',function(){
+    $('.modal-container').removeClass('on');
+  })
+
+  
+
     $('.question').on('click', function () {
         $(this).next().slideToggle();
         // ②押された要素にも'on'クラスを付ける
