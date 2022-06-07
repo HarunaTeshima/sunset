@@ -584,12 +584,6 @@ footer {
 
 @media screen and (max-width: 780px) {
 
-
-
-<<<<<<< HEAD
-}
-=======
-
     /* スライダー */
     .slider{
       margin-left: auto;
@@ -672,8 +666,26 @@ footer {
       transform: translateX(0);
       }
     }
+
+    .tab-list{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .accorion{
+        position: relative;
+        /* width: 100%; */
+        /* overflow: hidden; */
+    }
+
+
        
 
     
   }
->>>>>>> c135ca4bf0e0038d6900dcfdf005646bb95da445
