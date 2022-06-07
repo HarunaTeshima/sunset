@@ -584,12 +584,6 @@ footer {
 
 @media screen and (max-width: 780px) {
 
-
-
-<<<<<<< HEAD
-}
-=======
-
     /* スライダー */
     .sunsetamerican{
       font-size: 20px;
@@ -701,8 +695,46 @@ footer {
       transform: translateX(0);
       }
     }
+
+    .tab-list{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 10px;
+
+    }
+
+    .accorion{
+        position: relative;
+        /* width: 100%; */
+        /* overflow: hidden; */
+        font-size: 10px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    #box1{
+        font-size: 15px;
+    }
+
+    #box2{
+        font-size: 15px;
+    }
+
+    h1{
+        font-size: 100px;
+    }
+
+
+
+
        
 
     
   }
->>>>>>> c135ca4bf0e0038d6900dcfdf005646bb95da445
